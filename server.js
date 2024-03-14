@@ -21,13 +21,17 @@ const sess = {
     }),
 };
 
+// Added session middleware with session object
 app.use(session(sess));
 
-app.use(express.urlencoded({extended: true}));
-
-app.use(express.static('public'));
+// Import Express.js on the required template engine
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
+
+//  Configure Express middleware: parse incoming JSON requests, handle URL-encoded form data, and serve static files from the 'public' directory.
+app.use(express.json());
+app.use(express.urlencoded({extended: true}));
+app.use(express.static('public'));
 
 // app.use(
 //     session({
@@ -39,6 +43,8 @@ app.set('view engine', 'handlebars');
 // );
 
 app.use(routes);
+
+// Sync Sequelize models with the database (if necessary), then start the Express server listening on the specified PORT.
 sequelize.sync({force: false}).then(() => {
     app.listen(PORT, () => console.log(`Now Listening on PORT ${PORT}`));
 });
