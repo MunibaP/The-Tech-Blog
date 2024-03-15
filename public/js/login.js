@@ -16,6 +16,8 @@ const blogLoginFormHandler = async (event) => {
         } else {
             alert('Fail to login');
         }
+    } else {
+        alert('Please enter both username and password'); // added this alert to show when both fields are empty and user clicks login button
     }
 };
 
