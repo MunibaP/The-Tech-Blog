@@ -92,7 +92,7 @@ router.get('/editpost/:id', async(req, res) => {
             include: [
                 {model: User, attributes: ['username']},
                 {
-                    model, Comment,
+                    model: Comment,
                     include: [{model: User, attributes:['username']}],
                 },
             ],

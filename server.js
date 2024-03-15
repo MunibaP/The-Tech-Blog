@@ -33,8 +33,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 app.use(express.static('public'));
 
-// un-comment when routes are defined
-// app.use(routes);
+app.use(routes);
 
 // Sync Sequelize models with the database (if necessary), then start the Express server listening on the specified PORT.
 sequelize.sync({force: false}).then(() => {
