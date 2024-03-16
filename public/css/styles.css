@@ -10,18 +10,52 @@
   
 body {
     background-image: url('./../images/img_1.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center;
+    background-repeat:inherit;
+    background-size:cover;
+    
 }
 
 .card {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 25px 50px 0 rgba(0,0,0,0.19);
 }
 
-  
-  
-  
+h1 {
+    color: white;
+    font-weight: bold;
+}
+
+#username_blog_login {
+    width: 350px;
+    height: 45px;
+}
+
+#password_blog_login {
+    width: 350px;
+    height: 45px;
+}
+
+.form-label {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+#username {
+    width: 350px;
+    height: 45px;
+}
+
+#email {
+    width: 350px;
+    height: 45px;
+}
+
+#password {
+    width: 350px;
+    height: 45px;
+}
+
 /* Media Queries */
   
 @media screen and (min-width: 768px) {
@@ -43,5 +77,5 @@ body {
     only screen and (min-resolution: 192dpi) {
 }
   
-@media (color-gamut: srgb) {
-}
+/* @media (color-gamut: srgb) {
+} */
