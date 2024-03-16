@@ -6,7 +6,7 @@ const newBlogCommentFormHandler = async (event) => {
     const content = document.querySelector('#content-new-blog-comment').value.trim();
 
     if(content) {
-        const response = await fetch(`/api/comment`, {
+        const response = await fetch(`/api/comments`, {
             method: 'POST',
             body: JSON.stringify({comment_description: content, post_id}),
             headers: {'Content-Type': 'application/json'},
@@ -16,7 +16,7 @@ const newBlogCommentFormHandler = async (event) => {
             document.location.reload();
         } else {
             console.log('Response status:', response.status);
-            console.log('Response description:', await response.description());
+            console.log('Response text:', await response.text());
             alert('Cannot create your comment');
 
         }

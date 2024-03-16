@@ -56,6 +56,17 @@ h1 {
     height: 45px;
 }
 
+article {
+    color: white;
+}
+.comment {
+    color: white;
+}
+h2 {
+    color: white;
+    font-weight: bold;
+}
+
 /* Media Queries */
   
 @media screen and (min-width: 768px) {
