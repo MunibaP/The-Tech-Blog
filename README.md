@@ -104,10 +104,15 @@ To clone: git clone https://github.com/your-username/repository-name.git
 4. View the application either through the command-line terminal or by the deployed link.
 
 ## Screenshot
-![tech_blog_1](/Assets/insomnia_test_1.png)
+![tech_blog_homepage](/assets/tech_blog_homepage.jpeg)
 
-![tech_blog_1](/Assets/insomnia_test_2.png)
+![tech_blog_login](assets/tech_blog_login.jpeg)
 
+![tech_blog_signup](/assets/tech_blog_signup.jpeg)
+
+![tech_blog_comment](/assets/tech_blog_comment.jpeg)
+
+![tech_blog_dashboard](/assets/tech_blog_dashboard.jpeg)
 
 ## Contributions
 Contributions to the Tech Blog are welcome and encouraged. Here are some ways you can contribute:
