@@ -59,12 +59,19 @@ h1 {
 article {
     color: white;
 }
+
 .comment {
     color: white;
 }
+
 h2 {
     color: white;
     font-weight: bold;
+}
+
+#title-new-blog-post {
+    width: 350px;
+    height: 45px;
 }
 
 /* Media Queries */
@@ -87,6 +94,6 @@ h2 {
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
     only screen and (min-resolution: 192dpi) {
 }
-  
+
 /* @media (color-gamut: srgb) {
 } */
