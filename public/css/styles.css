@@ -10,8 +10,8 @@
   
 body {
     background-image: url('./../images/img_1.jpg');
-    background-position: center;
-    background-repeat:inherit;
+    background-position: center center;
+    background-repeat:no-repeat;
     background-size:cover;
     
 }
