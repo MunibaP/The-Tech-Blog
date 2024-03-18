@@ -130,7 +130,7 @@ Contributions to the Tech Blog are welcome and encouraged. Here are some ways yo
 There are no tests required for this project.
 
 ## Links
-- [Heroku deployed link](https://drive.google.com/file/d/1oVXdE9FimQ4XCNSwK1eQTTGJUnQO5r71/view?usp=sharin)
+- [Heroku deployed link](https://protected-inlet-55523-04642559360f.herokuapp.com/)
 - [GitHub repository](https://github.com/MunibaP/The-Tech-Blog.git)
   
 ## Questions
